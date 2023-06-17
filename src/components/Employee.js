@@ -6,14 +6,14 @@ function Employee(props){
   <img class="object-cover rounded-full h-[100px] w-[100px] block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0 border" src={props.image} alt="User's avatar" />
   <div class="text-center space-y-2 sm:text-left">
     <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold border max-w  my-5 px-2 text-center rounded-full hover:bg-blue-500  hover:text-white">
-        {props.name}
+      <p class="text-lg text-black font-semibold border max-w  my-2 px-2 text-left rounded-full hover:bg-blue-500  hover:text-white">
+       Name: {props.name}
       </p>
-      <p class="text-slate-500 font-medium w-48 border py-1  px-3 text-center rounded-full hover:bg-blue-500  hover:text-white"  >
-        {props.role}
+      <p class="text-slate-500 font-medium w-48 border py-1  px-3 text-left rounded-full hover:bg-blue-500  hover:text-white"  >
+       <strong>Role:</strong> {props.role}
       </p>
     </div>
-    <button class="px-4 py-1.5 text-sm text-purple-600 font-semibold rounded-full border  border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 text-center ">{props.message}
+    <button class="px-4 py-1.5 text-xl text-purple-600 font-semibold rounded-full border  border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 text-center w-48">{props.message}
     </button>
   </div>
 </div>
