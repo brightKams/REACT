@@ -8,10 +8,10 @@ function Employee(props){
   <img class="object-cover rounded-full h-[100px] w-[100px] block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0 border" src={props.image} alt="User's avatar" />
   <div class="text-center space-y-2 sm:text-left">
     <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold border max-w  my-2 px-2 text-left rounded-full hover:bg-blue-500  hover:text-white">
+      <p class="text-lg  font-semibold border h-10  max-w  my-2 px-2 text-left rounded-full hover:bg-blue-500  hover:text-white flex justify-center items-center">
        Name: {props.name}
       </p>
-      <p class="text-slate-500 font-medium w-48 border py-1  px-3 text-left rounded-full hover:bg-blue-500  hover:text-white"  >
+      <p class="text-slate-500 font-medium h-10 w-48 border items-center  px-3 text-left rounded-full hover:bg-blue-500  hover:text-white flex justify-center ">
        <strong>Role:</strong> {props.role}
       </p>
     </div>

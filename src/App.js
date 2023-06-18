@@ -1,7 +1,8 @@
 import "./index.css";
 import Employee from "./components/Employee";
 import { useState } from "react";
-import {v4 as uuidv4} from "uuid"
+import {v4 as uuidv4} from "uuid";
+import EditEmployee from "./components/EditEmployee.js";
 
 function App() {
   let newRole = "No Role yet";
