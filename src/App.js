@@ -64,7 +64,7 @@ function App() {
               console.log(e.target.value);
               setRole(e.target.value);
             }}
-            className="text-center block my-3 w-96 px-5 py-3 mx-10"
+            className="text-center block my-3  w-64 px-5 py-3 mx-10"
           />
           <input
             type="text"
@@ -72,7 +72,7 @@ function App() {
               console.log(e.target.value);
               setMessage(e.target.value);
             }}
-            className="text-center block my-3 w-96 px-5 py-3 mx-10"
+            className="text-center block my-3 w-64 px-5 py-3 mx-10"
           />
           {/* <input
             type="text"
